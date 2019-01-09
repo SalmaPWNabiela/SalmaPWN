@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style ,edia="screen">
+			.container{
+				width:50%;
+				height:200px;
+				overflow:uato;
+				margin-left: :0 auto;
+			}
+			.static{position: static; border: 2px solid green;}
+			.relative{
+				position: relative;
+				border: 2px solid red;
+				left:20px; /* jarak dari posisi paling kiri sebesar 20px */
+				bottom:0; /*jarak dari posisi paling bawah sebesar 0px */
+			}
+			.absolute{position: absolute; border: 2px solid blue; left:20px; bottom:40px;}
+			.fixed{position: fixed; border: 2px solid black; right:0; bottom:0;}
+			.sticky{
+				position: sticky;
+				border: 2px solid yellow;
+				left: 20px;
+				top: 0;
+				background: darkblue;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<p class=sticky">
+				Ini adalah contoh dari posisi sticky
+			</p>
+			
+			<p class="static">
+				<b>Ini adalah contoh dari position static</b</p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+				Lorem Ipsum has been the industry's standart dummy text ever since the 1500s,
+				when an unknown printer took a galley of type and scrambled it to make a type
+				specimen book. It has survived not only five centeruies, but also the leap into
+				electronic typesetting, remaining essentially unchanged. it was popularised industry
+				in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+				and more recently with desktop publishing software like Aldus PageMaker including
+				version of Lorem Ipsum.
+			</p>
+			
+			<p class="relative">
+				<b>Ini adalah contoh dari position relative</b> <br>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+				Lorem Ipsum has been the industry's standart dummy text ever since the 1500s,
+				when an unknown printer took a galley of type and scrambled it to make a type
+				specimen book. It has survived not only five centeruies, but also the leap into
+				electronic typesetting, remaining essentially unchanged. it was popularised industry
+				in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+				and more recently with desktop publishing software like Aldus PageMaker including
+				version of Lorem Ipsum.
+			</p>
+			
+			<p class="fixed">
+				ini merupakan contoh dari position fixed
+			</p>
+		</div>
+	</body>
+</html>
